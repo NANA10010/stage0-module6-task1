@@ -11,17 +11,16 @@ public class Animal {
             this.hasFur = hasFur;
         }
   
-        public String getDescription(String color, int numberOfPaws, boolean hasFur){
+        public String getDescription(){
             String Fur;
             if(hasFur) Fur ="a";
             else Fur = "no";
             String Pows ="";
             if(numberOfPaws > 1) Pows = "s";
+
             String ans =  "This animal is mostly " + color + ". It has " + numberOfPaws +
                     " paw"+Pows +" and "+ Fur + " fur.";
-                
             return ans;
         }
-
 
 }
