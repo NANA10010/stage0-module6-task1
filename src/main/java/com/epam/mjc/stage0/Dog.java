@@ -5,8 +5,4 @@ package com.epam.mjc.stage0;
         public Dog() {
             super("brown", 4, true);
         }
-        public String getDescription() {
-            String ans  =  "This animal is mostly brown. It has 4 paws and a fur.";
-            return ans;
-        }
     }
