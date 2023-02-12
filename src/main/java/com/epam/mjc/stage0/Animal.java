@@ -17,8 +17,10 @@ public class Animal {
             else Fur = "no";
             String Pows ="";
             if(numberOfPaws > 1) Pows = "s";
-            return "This animal is mostly " + color + ". It has " + numberOfPaws +
+            String ans =  "This animal is mostly " + color + ". It has " + numberOfPaws +
                     " paw"+Pows +" and "+ Fur + " fur.";
+                
+            return ans;
         }
 
 
